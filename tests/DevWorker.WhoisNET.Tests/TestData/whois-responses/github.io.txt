@@ -1,0 +1,14 @@
+Domain Name: GITHUB.IO
+Registry Domain ID: 123456_DOMAIN_IO-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2023-05-15T12:00:00Z
+Creation Date: 2013-04-08T00:00:00Z
+Registry Expiry Date: 2025-04-08T00:00:00Z
+Registrar: MarkMonitor Inc.
+Registrar IANA ID: 292
+Domain Status: clientDeleteProhibited
+Domain Status: clientTransferProhibited
+Name Server: NS1.GITHUB.COM
+Name Server: NS2.GITHUB.COM
+DNSSEC: unsigned

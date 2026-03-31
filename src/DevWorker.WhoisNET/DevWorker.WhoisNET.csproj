@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net6.0;net8.0;net10.0</TargetFrameworks>
+    <RootNamespace>DevWorker.WhoisNET</RootNamespace>
+    <AssemblyName>DevWorker.WhoisNET</AssemblyName>
+
+    <!-- NuGet metadata -->
+    <PackageId>DevWorker.WhoisNET</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>DevWorker</Authors>
+    <Company>DevWorker</Company>
+    <Description>A modern, structured WHOIS and RDAP client for .NET. Supports all major TLDs (.com, .fr, .org, .de, .uk, .eu, .io, etc.) with strongly-typed results, RDAP-first with WHOIS fallback, async-first API, and DI support.</Description>
+    <PackageTags>whois;rdap;domain;dns;lookup;tld;registrar;nuget;dotnet</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/nicdev-worker/WhoisNET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nicdev-worker/WhoisNET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <!-- Suppress noisy analyzers -->
+    <NoWarn>CA1848;CA1873;CA1859;CA1835;CA2016;CA1866;CA1310;CA1869;CA1861;CA1865;CA1513</NoWarn>
+
+    <!-- Build quality -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+
+    <!-- SourceLink -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <!-- Dependencies for all targets -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" />
+    <PackageReference Include="Microsoft.Extensions.Http" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Options" />
+  </ItemGroup>
+
+  <!-- netstandard2.0 specific -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="System.Text.Json" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" />
+  </ItemGroup>
+
+  <!-- net6.0 specific -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
+    <PackageReference Include="System.Text.Json" />
+  </ItemGroup>
+
+  <!-- SourceLink -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="DevWorker.WhoisNET.Tests" />
+  </ItemGroup>
+
+</Project>

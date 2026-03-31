@@ -1,0 +1,22 @@
+Domain Name: WIKIPEDIA.ORG
+Registry Domain ID: D51687756-LROR
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2023-11-27T13:58:11Z
+Creation Date: 2001-01-13T00:12:14Z
+Registry Expiry Date: 2025-01-13T00:12:14Z
+Registrar Registration Expiration Date:
+Registrar: MarkMonitor Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Registrant Organization: Wikimedia Foundation, Inc.
+Registrant State/Province: CA
+Registrant Country: US
+Name Server: NS0.WIKIMEDIA.ORG
+Name Server: NS1.WIKIMEDIA.ORG
+Name Server: NS2.WIKIMEDIA.ORG
+DNSSEC: unsigned

@@ -1,0 +1,9 @@
+% Copyright (c) 2010 by DENIC
+% Version: 2.0
+
+Domain: denic.de
+Nserver: ns1.denic.de 81.91.161.1
+Nserver: ns2.denic.de 193.171.255.36
+Nserver: ns3.denic.de 87.233.175.19
+Status: connect
+Changed: 2024-01-01T00:00:00+01:00

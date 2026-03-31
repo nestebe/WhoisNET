@@ -1,0 +1,2 @@
+No match for "XYZNOTEXIST12345.COM".
+>>> Last update of whois database: 2024-01-15T10:00:00Z <<<

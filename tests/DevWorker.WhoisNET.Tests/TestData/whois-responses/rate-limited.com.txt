@@ -1,0 +1,3 @@
+WHOIS query rate limit exceeded. Please try again later.
+Your connection has been rate limited. You have exceeded the maximum
+number of queries allowed. Please wait before trying again.

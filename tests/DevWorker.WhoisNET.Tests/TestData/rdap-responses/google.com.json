@@ -1,0 +1,35 @@
+{
+  "objectClassName": "domain",
+  "handle": "2138514_DOMAIN_COM-VRSN",
+  "ldhName": "google.com",
+  "status": ["client delete prohibited", "client transfer prohibited", "client update prohibited", "server delete prohibited", "server transfer prohibited", "server update prohibited"],
+  "events": [
+    {"eventAction": "registration", "eventDate": "1997-09-15T04:00:00Z"},
+    {"eventAction": "expiration", "eventDate": "2028-09-14T04:00:00Z"},
+    {"eventAction": "last changed", "eventDate": "2019-09-09T15:39:04Z"}
+  ],
+  "entities": [
+    {
+      "objectClassName": "entity",
+      "handle": "292",
+      "roles": ["registrar"],
+      "publicIds": [{"type": "IANA Registrar ID", "identifier": "292"}],
+      "vcardArray": ["vcard", [["version", {}, "text", "4.0"], ["fn", {}, "text", "MarkMonitor Inc."]]],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "roles": ["abuse"],
+          "vcardArray": ["vcard", [["version", {}, "text", "4.0"], ["fn", {}, "text", ""], ["email", {}, "text", "abusecomplaints@markmonitor.com"], ["tel", {}, "uri", "tel:+1.2086851750"]]]
+        }
+      ]
+    }
+  ],
+  "nameservers": [
+    {"objectClassName": "nameserver", "ldhName": "ns1.google.com"},
+    {"objectClassName": "nameserver", "ldhName": "ns2.google.com"},
+    {"objectClassName": "nameserver", "ldhName": "ns3.google.com"},
+    {"objectClassName": "nameserver", "ldhName": "ns4.google.com"}
+  ],
+  "secureDNS": {"delegationSigned": false},
+  "port43": "whois.markmonitor.com"
+}

@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/DevWorker.WhoisNET.Sample/DevWorker.WhoisNET.Sample.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/DevWorker.WhoisNET/DevWorker.WhoisNET.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DevWorker.WhoisNET.Tests/DevWorker.WhoisNET.Tests.csproj" />
+  </Folder>
+</Solution>

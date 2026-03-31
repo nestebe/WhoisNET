@@ -1,0 +1,19 @@
+% The WHOIS service offered by EURid and the access to the records
+% in the EURid WHOIS database are provided for information purposes
+% only.
+
+Domain:
+        europa.eu
+
+Status: REGISTERED
+
+Registrar:
+        Name:    EURid vzw/asbl
+        Website: https://eurid.eu
+
+Name servers:
+        ns1.europa.eu
+        ns2.europa.eu
+        ns3.europa.eu
+        ns4.europa.eu
+

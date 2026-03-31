@@ -1,0 +1,5 @@
+{
+  "errorCode": 404,
+  "title": "Not Found",
+  "description": ["The requested domain was not found in the RDAP database."]
+}

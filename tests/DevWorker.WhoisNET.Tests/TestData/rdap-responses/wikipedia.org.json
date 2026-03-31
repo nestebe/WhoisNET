@@ -1,0 +1,30 @@
+{
+  "objectClassName": "domain",
+  "handle": "D51687756-LROR",
+  "ldhName": "wikipedia.org",
+  "status": ["client delete prohibited", "client transfer prohibited", "client update prohibited"],
+  "events": [
+    {"eventAction": "registration", "eventDate": "2001-01-13T00:12:14Z"},
+    {"eventAction": "expiration", "eventDate": "2025-01-13T00:12:14Z"},
+    {"eventAction": "last changed", "eventDate": "2023-11-27T13:58:11Z"}
+  ],
+  "entities": [
+    {
+      "objectClassName": "entity",
+      "handle": "292",
+      "roles": ["registrar"],
+      "vcardArray": ["vcard", [["version", {}, "text", "4.0"], ["fn", {}, "text", "MarkMonitor Inc."]]]
+    },
+    {
+      "objectClassName": "entity",
+      "roles": ["registrant"],
+      "vcardArray": ["vcard", [["version", {}, "text", "4.0"], ["fn", {}, "text", ""], ["org", {}, "text", "Wikimedia Foundation, Inc."]]]
+    }
+  ],
+  "nameservers": [
+    {"objectClassName": "nameserver", "ldhName": "ns0.wikimedia.org"},
+    {"objectClassName": "nameserver", "ldhName": "ns1.wikimedia.org"},
+    {"objectClassName": "nameserver", "ldhName": "ns2.wikimedia.org"}
+  ],
+  "secureDNS": {"delegationSigned": false}
+}
