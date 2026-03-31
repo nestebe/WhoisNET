@@ -6,7 +6,7 @@ Console.WriteLine("=== WhoisNET Sample ===\n");
 using var client = new DomainLookupClient();
 
 // Simple lookup
-var domains = new[] { "google.com", "google.fr", "wikipedia.org", "dev-worker.com", "1parrainage.com" };
+var domains = new[] { "google.com", "google.fr", "wikipedia.org" };
 
 foreach (var domain in domains)
 {

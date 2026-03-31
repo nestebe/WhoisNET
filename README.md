@@ -110,7 +110,7 @@ JsonDocument? rdap = await client.GetRawRdapAsync("example.com");
 
 All other TLDs use the `GenericWhoisParser` (key-value format).
 
-##Authors 
+## Authors 
 
 [Nicolas ESTEBE](https://github.com/kevinwairi)
 
