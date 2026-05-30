@@ -112,7 +112,7 @@ All other TLDs use the `GenericWhoisParser` (key-value format).
 
 ## Authors 
 
-[Nicolas ESTEBE](https://github.com/kevinwairi)
+[Nicolas ESTEBE](https://github.com/nestebe)
 
 ## License
 
